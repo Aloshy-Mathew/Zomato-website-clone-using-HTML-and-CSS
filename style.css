@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -63,25 +63,29 @@ nav>div>h4:hover {
 
 .logo-2 {
     color: white;
-    text-decoration:none;
-    font-size:200%;
-    margin-left:28%;
+    text-decoration: none;
+    font-size: 200%;
+    margin-left: 28%;
     margin-top: 3%;
     margin-bottom: 40px;
 }
-.location{
+
+.location {
     color: rgba(255, 0, 76, 0.411);
     font-size: x-large;
 }
-.location-search>select{
+
+.location-search>select {
     width: 200px;
     height: 35px;
     border: none;
 }
-.search-outline{
+
+.search-outline {
     color: gray;
     font-size: x-large;
 }
+
 .search>input {
     padding: 15px;
     border: none;
@@ -91,6 +95,7 @@ nav>div>h4:hover {
     border-radius: 10px;
     position: relative;
 }
+
 .search {
     background-color: white;
     width: 630px;
@@ -101,12 +106,14 @@ nav>div>h4:hover {
     display: flex;
 
 }
-.location-search>input{
+
+.location-search>input {
     border: none;
     outline: none;
     margin-top: 15px;
 }
-.place{
+
+.place {
     width: 150px;
 }
 
@@ -119,9 +126,7 @@ nav>div>h4:hover {
     flex-wrap: nowrap;
     gap: 30px;
     transition-duration: 0.5s;
-
 }
-
 
 .box>img {
     width: 400px;
@@ -129,7 +134,6 @@ nav>div>h4:hover {
     cursor: pointer;
     border-radius: 5px;
     overflow: hidden;
-
 }
 
 .box {
@@ -141,7 +145,8 @@ nav>div>h4:hover {
     height: 200px;
     overflow: hidden;
 }
-.box-title{
+
+.box-title {
     margin-left: 15px;
 }
 
@@ -149,7 +154,7 @@ nav>div>h4:hover {
     transition-duration: 0.5s;
     border: 0.5px solid rgba(2, 2, 2, 0.123);
     border-radius: 15px;
-    
+
 }
 
 .card-hover:hover {
@@ -161,38 +166,43 @@ nav>div>h4:hover {
 
 /* collections body */
 
-.collections{
+.collections {
     margin: 60px 200px 60px 200px;
-    
+
 }
-.collections>h1{
+
+.collections>h1 {
     font-size: xx-large;
 }
-.more-button{
+
+.more-button {
     color: rgb(233, 61, 61);
     float: right;
 }
-.pic>img{
+
+.pic>img {
     width: 310px;
     height: 350px;
     border-radius: 5px;
     cursor: pointer;
-} 
-.pictures{
+}
+
+.pictures {
     display: flex;
     margin-top: 30px;
     gap: 15px;
     position: relative;
 }
 
-.pic-title{
-    position:absolute;
+.pic-title {
+    position: absolute;
     bottom: 1px;
     color: white;
     margin: 0 0 10px 10px;
 }
+
 /* popular localities */
-.locality-list{
+.locality-list {
     display: flex;
     justify-content: space-between;
     width: 800px;
@@ -203,20 +213,22 @@ nav>div>h4:hover {
     padding: 10px;
     cursor: pointer;
 }
-.display{
+
+.display {
     display: flex;
     gap: 10px;
     margin: 15px;
 }
-.popular-localities{
-    margin:0 200px 60px 200px ;
-    
+
+.popular-localities {
+    margin: 0 200px 60px 200px;
+
 }
 
 /* get zomato app */
 
 
-.get-zomato-app{
+.get-zomato-app {
     width: 100%;
     height: 500px;
     background-color: rgba(255, 192, 203, 0.195);
@@ -224,21 +236,25 @@ nav>div>h4:hover {
     justify-content: center;
     align-items: center;
 }
-.radio{
+
+.radio {
     accent-color: red;
     margin-bottom: 50px;
 }
-.email{
+
+.email {
     font-size: 20px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
-.moblile>img{
-    margin-top:30px;
+
+.moblile>img {
+    margin-top: 30px;
     width: 300px;
     height: 300px;
 
 }
-.emailid{
+
+.emailid {
     width: 300px;
     height: 50px;
     border-radius: 10px;
@@ -246,41 +262,48 @@ nav>div>h4:hover {
     margin-bottom: 30px;
 
 }
-.mobile-2>button{
+
+.mobile-2>button {
     background-color: #ef4f5f;
     color: white;
     width: 100px;
     height: 50px;
     border-radius: 10px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     border-color: #ef4f5f;
 }
-.get{
+
+.get {
     padding-left: 10px;
     font-weight: 500;
-    font-size:xx-large;
+    font-size: xx-large;
 }
-.para{
+
+.para {
     padding-left: 10px;
     color: gray;
     margin-bottom: 30px;
 }
-.store-pic>img{
-    width:137px;
-    height:40px;
-    margin:10px;
+
+.store-pic>img {
+    width: 137px;
+    height: 40px;
+    margin: 10px;
 }
+
 /* Explore */
-.explore{
-    margin:60px 200px 50px 200px;
+.explore {
+    margin: 60px 200px 50px 200px;
 }
-.explore>h1{
+
+.explore>h1 {
     font-weight: 500;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 }
-.select{
+
+.select {
     width: 1100px;
     height: 70px;
     margin: 15px;
@@ -289,85 +312,99 @@ nav>div>h4:hover {
     font-size: medium;
     cursor: pointer;
 }
+
 /* last body */
-.bottom-page1{
-    background-color:rgba(155, 151, 151, 0.147);
+.bottom-page1 {
+    background-color: rgba(155, 151, 151, 0.147);
     width: 100%;
     height: 500px;
-   
+
 }
-.country-language{
+
+.country-language {
     display: flex;
     gap: 10px;
     margin: 70px 50px 20px 170px;
 }
-.zomatobottomlogo{
+
+.zomatobottomlogo {
     margin-left: 20px;
 }
-.language{
-    background-color:whitesmoke ;    
+
+.language {
+    background-color: whitesmoke;
     border-radius: 5px;
-    height: 40px; 
+    height: 40px;
     padding-top: 10px;
     cursor: pointer;
 }
-.country{
-    background-color:whitesmoke ;  
-    border-radius: 5px;  
+
+.country {
+    background-color: whitesmoke;
+    border-radius: 5px;
     margin-left: 650px;
     height: 40px;
     cursor: pointer;
 }
-.language>input{
+
+.language>input {
     border: none;
     outline: none;
     width: 80px;
     height: 20px;
-    background-color:whitesmoke;
-    padding-left: 5px;   
+    background-color: whitesmoke;
+    padding-left: 5px;
     font-size: large;
-    
+
 }
-.indialogo{
+
+.indialogo {
     width: 15px;
     height: 20px;
     padding-top: 7px;
 }
-.country>input{
+
+.country>input {
     border: none;
     outline: none;
     width: 80px;
     height: 30px;
-    background-color:whitesmoke;
-    padding-left: 5px;   
+    background-color: whitesmoke;
+    padding-left: 5px;
     font-size: large;
     padding-top: 10px;
-   
+
 }
-.about{
+
+.about {
     margin: 50px 50px 50px 190px;
     display: flex;
     gap: 85px;
 }
-.about>div>h3{
+
+.about>div>h3 {
     margin-bottom: 10px;
 }
-.about>div>ul>li{
+
+.about>div>ul>li {
     margin-bottom: 10px;
     list-style: none;
     cursor: pointer;
 }
-.enterprises>ul>h3{
+
+.enterprises>ul>h3 {
     margin: 10px 0 10px 0;
 }
-.app-logos>li>img{
+
+.app-logos>li>img {
     width: 157px;
     height: 45px;
 }
-.social-medias{
+
+.social-medias {
     display: flex;
     gap: 10px;
-    color:black;
-    background-color:whitesmoke;
+    color: black;
+    background-color: whitesmoke;
     cursor: pointer;
 }
